@@ -11,7 +11,7 @@
     "fluent-react": "0.7.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-intl": "2.8.0",
+    "react-intl": "5.24.0",
     "react-redux": "7.0.3",
     "redux": "4.0.1",
     "reselect": "4.0.0"
