@@ -22,11 +22,15 @@
     "react-prop-types": "=0.4.0",
     "react-redux": "=5.0.6",
     "redux": "^3.7.2",
-    "reselect": "^3.0.1"
+    "reselect": "^3.0.1",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "node bin/dev-server",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "snyk": true
 }
